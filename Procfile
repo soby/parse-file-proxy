@@ -1,1 +1,1 @@
-web: /app/haproxy -f proxy.conf -sf
+web: /app/haproxy -d -f proxy.conf -sf
