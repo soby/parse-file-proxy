@@ -1,1 +1,1 @@
-web: /app/haproxy -f proxy.yaml -sf
+web: /app/haproxy -f proxy.conf -sf
