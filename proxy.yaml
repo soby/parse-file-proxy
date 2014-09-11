@@ -1,7 +1,0 @@
-frontend http
-  bind 0.0.0.0:80
-  default_backend parse_files
-
-backend parse_files:
-  balance roundrobin
-  server files files.parse.com.s3.amazonaws.com

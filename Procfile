@@ -1,1 +1,1 @@
-web: haproxy -D -f proxy.yaml -sf
+web: haproxy -f proxy.yaml -sf
